@@ -44,6 +44,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color: #f2a154;
+}
+
 .top-container{
   background-color: #151515;
   position: relative;
