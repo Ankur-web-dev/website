@@ -226,9 +226,10 @@ a{
 }
 
 .contact-me{
-  width: 50%;
+  width: 30%;
   margin: 60px auto 0px auto;
   padding-bottom: 75px;
+  line-height:2;
 }
 
 .BUTTON_TQT {
