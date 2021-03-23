@@ -248,6 +248,15 @@ a{
    text-align: center;
 }
 
+.BUTTON_TQT:hover {
+   background: #e45826;
+   border: solid #e45826 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
 .work{
   padding-top: 20px;
 }
