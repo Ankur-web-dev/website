@@ -5,15 +5,11 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-p {
-  line-height: 2;
-}
-
-h1 {
+h1{
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  margin-top: 0;
-  padding-top: 150px;
+  margin: 0 auto;
+  padding-top: 250px;
   color: #ffee93;
 }
 
@@ -48,14 +44,28 @@ a:hover{
   color: #f2a154;
 }
 
+p{
+  line-height: 2;
+}
+
 .top-container{
-  background-color: #151515;
-  position: relative;
+  margin: 0px;
+  background: #151515;
   height: 49.25rem;
 }
 
-.ank{
+.intro{
+  margin: 0 auto;
+  width:50%;
+  padding-bottom: 60px;
+  display: inline-block;
   line-height: 2;
+}
+
+.geek{
+  float: right;
+  width: 35%;
+  padding-top: 40%;
 }
 
 .prog{
@@ -66,125 +76,6 @@ a:hover{
 .pro {
   font-family: monospace;
   font-size: 2.5rem;
-}
-
-.top-cloud {
-  position: absolute;
-  width:10%;
-  top: 50px;
-  right: 300px
-}
-
-.bottom-cloud {
-  width:10%;
-  position: absolute;
-  bottom: 300px;
-  left: 300px;
-}
-
-.bird1{
-  position: absolute;
-  height: 80px;
-  top: 130px;
-  left: 470px;
-}
-
-.bird2{
-  position: absolute;
-  height: 80px;
-  top: 50px;
-  right: 470px;
-}
-
-.m1{
-  position: absolute;
-  height: 150px;
-  bottom:0;
-  left:0;
-}
-
-.m2{
-  position: absolute;
-  height: 110px;
-  bottom:0;
-  left:120px;
-}
-
-.m3{
-  position: absolute;
-  height: 140px;
-  bottom:0;
-  left:220px;
-}
-
-.m4{
-  position: absolute;
-  height: 100px;
-  bottom:0;
-  left:350px;
-}
-
-.m5{
-  position: absolute;
-  height: 100px;
-  bottom:0;
-  left:450px;
-}
-
-.m6{
-  position: absolute;
-  height: 120px;
-  bottom:0;
-  left:530px;
-}
-
-.m7{
-  position: absolute;
-  height: 150px;
-  bottom:0;
-  left:630px;
-}
-
-.m8{
-  position: absolute;
-  height: 120px;
-  bottom:0;
-  left:775px;
-}
-
-.m9{
-  position: absolute;
-  height: 160px;
-  bottom:0;
-  left:880px;
-}
-
-.m10{
-  position: absolute;
-  height: 120px;
-  bottom:0;
-  left:1030px;
-}
-
-.m11{
-  position: absolute;
-  height: 100px;
-  bottom:0;
-  left:1130px;
-}
-
-.m12{
-  position: absolute;
-  height: 120px;
-  bottom:0;
-  left:1210px;
-}
-
-.m13{
-  position: absolute;
-  height: 140px;
-  bottom:0;
-  right:0;
 }
 
 .akimg{
@@ -235,7 +126,7 @@ a:hover{
   width: 30%;
   margin: 60px auto 0px auto;
   padding-bottom: 75px;
-  line-height:2;
+  line-height: 2;
 }
 
 .BUTTON_TQT {
@@ -261,6 +152,7 @@ a:hover{
    -moz-border-radius: 10px;
    border-radius: 10px;
    text-decoration: none;
+   color: white;
 }
 
 .work{
@@ -282,7 +174,7 @@ a:hover{
   margin: 0;
   padding-top: 20px;
   padding-bottom: 40px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .middle-container{
@@ -293,4 +185,10 @@ a:hover{
   margin: 0 auto;
   width:30%;
   padding-bottom: 60px;
+}
+
+.flaticon{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  background-color: #536162;
 }
